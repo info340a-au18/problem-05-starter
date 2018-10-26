@@ -18,7 +18,10 @@ let state = {
 //and *returns* a list item (<li>) representing that task.
 //The list item should have content that is the `description` of the task, and 
 //be given the `font-strike` class to cross it out if the task is completed.
-//You can test this function by logging out the returned item
+//
+//You can test this function by logging out the returned item. You will need to
+//pass it an object representing a single task; you can pass it one of the
+//examples from the state (e.g., `state.taskList[0]`).
 
 
 
